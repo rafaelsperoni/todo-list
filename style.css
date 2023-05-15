@@ -1,0 +1,48 @@
+/*todos os elementos*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*corpo do documento*/
+body{
+    background: #cdebb3;
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+}
+
+/*cabecalho*/
+header{
+    font-size: 1.5rem;
+    background: #e7e9e6;
+}
+
+/*cabeçalho e main*/
+header, main{
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*input dentro de um main e button dentro de um main*/
+main input, main button{
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: #e7e9e6;
+}
+
+/*botão dentro do main*/
+main button{
+    color: #8cbe7a;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/*pseudoclasse para mouse sobre o botão*/
+main button:hover{
+    color: white;
+    background: #8cbe7a;
+}
